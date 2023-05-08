@@ -1,0 +1,27 @@
+.display{
+    display: grid;
+    grid-template-columns: 30vw 30vw;
+}
+
+@media only screen and (max-width: 850px) {
+    .display{
+        display: grid;
+        grid-template-columns: 50vw;
+    }
+
+    .card{
+        min-width:"200px" !important;
+        min-height:"120px" !important;
+    }
+  }
+
+  .modal.showModal{
+    display: block ;
+    background-color: rgba(114, 109, 109, 0.5);
+}
+.whole p{
+    font-size: 30px;
+    font-weight: bold;
+    font-family:sans-serif;
+    text-align: center;
+    }
